@@ -9,6 +9,8 @@ var snake_case = '';
 // Boolean(true | false);
 // Number(floate | Integer);
 // String(char | varChar);
+// Null
+// Undefined
 
 //Booleanos
 
@@ -64,3 +66,28 @@ check.valueOf(); // true
 Number(''); // 0
 Number('1'); // 1
 Number('a'); // NaN
+
+parseInt('1'); // 1
+parseFloat('1.5'); // 1.5
+
+// Operadores String
+
+String(1); //'1'
+String(0); // '0'
+String('a'); // 'a'
+String(null);
+String(undefined);
+
+var teste = 0;
+teste.toString(); // '0'
+
+// Tipos de variaveis
+
+var teste = ''; // Aloca um espaço mutavel na memoria do computador
+let teste2 = ''; // Aloca um espaço mutavel na memoria do computador
+const teste3 = ''; // Aloca um espaço não mutavel na memoria do computador
+
+// Quando eu devo usar cada um ?
+
+// - Usar o cont sempre kkkk
+// - Usar o let quando não der pra usar o const
